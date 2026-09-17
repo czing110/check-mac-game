@@ -6,7 +6,7 @@
 
 ### 方式一：作为插件安装（推荐）
 
-1. 下载仓库中的 `check-mac-game-plugin-1.0.5-portable.zip`。
+1. 下载仓库中的 `check-mac-game-plugin-1.0.6-portable.zip`。
 2. 解压缩。解压后应看到一个包含 `.codex-plugin/plugin.json` 和 `skills/check-mac-game/` 的插件文件夹。
 3. 在 Codex 的插件/技能导入入口选择这个文件夹，或把整个文件夹放进 Codex 的本地插件目录。
 4. 重启或重新加载 Codex。插件清单中的名称应显示为 **Check Mac Game**。
@@ -56,7 +56,12 @@
 
 以后更新时，下载 GitHub 上的最新压缩包，删除旧版插件文件夹后替换为新版，再重新加载 Codex。不要把新旧版本的 `SKILL.md`、`references/` 或模板混在一起。
 
-当前版本：`1.0.5`
+当前版本：`1.0.6`
+
+### 1.0.6 更新说明
+
+- 扩大自然语言自动调用范围：询问 PC、Steam、Windows 游戏、游戏库、购买前确认、安装运行、性能表现或是否需要 CrossOver 时，均可自动识别。
+- 普通 Mac 故障排查和非游戏软件问题不会误触发。
 
 ### 1.0.5 更新说明
 
